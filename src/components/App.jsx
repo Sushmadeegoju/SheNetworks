@@ -16,13 +16,14 @@ function App() {
           <nav style={{ display: "flex", justifyContent:"space-evenly"}}>
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/">Events</Link></li>
-              <li><Link to="/">Mentors</Link></li>
+              <li><Link to="/events">Events</Link></li>
+              <li><Link to="/mentors">Mentors</Link></li>
             </ul>
           </nav>
         </header>
         <Routes>
               <Route path="/" element={<Home />} /> 
+              <Route path="/home" element={<Home />} /> 
               <Route path="/login" element={<Login />} /> 
               <Route path="/register" element={<Register />} /> 
               <Route path="/events" element={<Event />} /> 
