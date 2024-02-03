@@ -1,7 +1,10 @@
 import '../css/App.css'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Link, Route } from "react-router-dom";
 import Home from './HomePage'
 import Login from './Login'
+import Event from './Events'
+import Register from './Register';
+import Mentors from './Mentors'
 
 function App() {
 
@@ -12,15 +15,18 @@ function App() {
           <div style={{ color: "white", fontWeight: "bold" }}>SheNetworks</div>
           <nav style={{ display: "flex", justifyContent:"space-evenly"}}>
             <ul>
-              <li>Home</li>
-              <li>Events</li>
-              <li>Jobs</li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/">Events</Link></li>
+              <li><Link to="/">Mentors</Link></li>
             </ul>
           </nav>
         </header>
         <Routes>
               <Route path="/" element={<Home />} /> 
               <Route path="/login" element={<Login />} /> 
+              <Route path="/register" element={<Register />} /> 
+              <Route path="/events" element={<Event />} /> 
+              <Route path="/mentors" element={<Mentors />} /> 
           </Routes> 
         <footer>
           <section>
