@@ -1,0 +1,26 @@
+/* EventPage.css */
+
+.event-page-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .filters-container,
+  .events-container {
+    width: 45%;
+  }
+  
+  .filter-section {
+    margin-bottom: 15px;
+  }
+  
+  .event-card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styling as needed */
+  

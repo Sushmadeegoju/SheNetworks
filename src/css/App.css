@@ -5,8 +5,6 @@ body {
     background-color: white;
     /* background-image: url("/public/Home.jpg"); */
     background-size: cover;
-    /* width: 100%;
-    height: auto; */
   }
 
   header {
@@ -27,7 +25,7 @@ body {
   }
   
   nav li {
-    margin-right: 20px; /* Add spacing between list items */
+    margin-right: 30px; /* Add spacing between list items */
   }
   
   nav a {
