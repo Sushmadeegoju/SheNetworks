@@ -74,7 +74,7 @@ function App() {
           </Routes> 
         <footer>
           <section>
-            <p> &copy; 2023 EasyHire, Inc</p>
+            <p> &copy; 2024 SheNetworks, Inc</p>
           </section>
           <section>
             <p> About Us | Directions | Contact Us</p>
