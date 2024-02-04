@@ -11,7 +11,7 @@ const ImageTwo = () => (
         <Card className='card'>
           <CardContent>
             <Typography variant='h5' gutterBottom>
-              Events
+            <Link to="/events">Events</Link>
             </Typography>
             <Typography variant='body2'>
               Explore upcoming events and stay informed about exciting activities in your field.
@@ -23,7 +23,7 @@ const ImageTwo = () => (
         <Card className='card'>
           <CardContent>
             <Typography variant='h5' gutterBottom>
-              Mentors
+            <Link to="/mentors">Mentors</Link>
             </Typography>
             <Typography variant='body2'>
               Connect with experienced mentors who can guide you in your career journey.
@@ -33,9 +33,9 @@ const ImageTwo = () => (
 
         {/* Discussions Card */}
         <Card className='card'>
-          <CardContent>
+          <CardContent >
             <Typography variant='h5' gutterBottom>
-              Discussions
+            <Link to="/discussions">Discussions</Link>
             </Typography>
             <Typography variant='body2'>
               Engage in meaningful discussions with the community and share your insights.
