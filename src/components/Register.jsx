@@ -28,42 +28,42 @@ function Register() {
     });
   };
 
-//   const postFormData = async (formData) => {
-//     // const firstName = formData.firstName;
-//     console.log("formData: " + formData);
-//     // JSON.stringify(formData);
+  const postFormData = async (formData) => {
+    // const firstName = formData.firstName;
+    console.log("formData: " + formData);
+    // JSON.stringify(formData);
 
-//     try {
-//       // const dataToSend = { ...formData };
-//       const response = await fetch("/addStudent", {
-//         method: "POST",
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//         body: JSON.stringify(formData),
-//       });
+    try {
+      // const dataToSend = { ...formData };
+      const response = await fetch("http://localhost:4000/addUser", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-//       if (response.ok) {
-//         alert(`Registration Successful`);
-//       } else {
-//         const errorMessage = await response.json();
-//         alert(`Error: ${errorMessage["error"]}`);
-//       }
-//     } catch (error) {
-//       console.error("Error:", error);
-//       alert(`Error: ${error}`);
-//     }
-//   };
+      if (response.ok) {
+        alert(`Registration Successful`);
+      } else {
+        const errorMessage = await response.json();
+        alert(`Error: ${errorMessage["error"]}`);
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert(`Error: ${error}`);
+    }
+  };
 
-//   const handleFileChange = (event) => {
-//     const file = event.target.files[0];
-//     if (file && file.type === "application/pdf") {
-//       setFormData({ ...formData, resume: file });
-//       setErrors({ ...errors, resume: null });
-//     } else {
-//       setErrors({ ...errors, resume: "Only PDF files are allowed." });
-//     }
-//   };
+  const handleFileChange = (event) => {
+    const file = event.target.files[0];
+    if (file && file.type === "application/pdf") {
+      setFormData({ ...formData, resume: file });
+      setErrors({ ...errors, resume: null });
+    } else {
+      setErrors({ ...errors, resume: "Only PDF files are allowed." });
+    }
+  };
 
   const validateForm = () => {
     let tempErrors = {};
@@ -91,7 +91,7 @@ function Register() {
       // Process your form data here (e.g., send to an API)
       if (validateForm()) {
         console.log("Form data submitted:", formData);
-        // postFormData(formData);
+        postFormData(formData);
         // Clear the form
         setFormData({
           firstName: "",
@@ -170,7 +170,7 @@ function Register() {
         onChange={handleInputChange}
       ></textarea>
 
-      <input type="file" />
+      <input type="file" onChange={handleFileChange}/>
       {errors.resume && <div>{errors.resume}</div>}
 
       <button type="submit">Submit</button>
