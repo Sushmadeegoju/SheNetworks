@@ -1,0 +1,272 @@
+[
+    {
+      "firstName": "Marcelina",
+      "lastName": "Krowinska",
+      "gradYear": "2024",
+      "headline": "Computer Science",
+      "url": "https://www.linkedin.com/in/marcelina-krowinska/",
+      "image": "https://media.licdn.com/dms/image/D5603AQHKN_JLJhvNEA/profile-displayphoto-shrink_400_400/0/1694719863628?e=1712793600&v=beta&t=T5A0k8TIYJL6FJ6-r1CXDToirdc1iaFBKY4eugpUGhg",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Melody",
+      "lastName": "Warnick",
+      "gradYear": "Not Found",
+      "headline": "Writer",
+      "url": "https://www.linkedin.com/in/melodywarnick/",
+      "image": "https://media.licdn.com/dms/image/D5603AQExCMCq98SAXg/profile-displayphoto-shrink_400_400/0/1699395349917?e=1712793600&v=beta&t=c12jxS00KakHgN95Ap_siNFxAZfOUFwomt16JGbXbR4",
+      "department": "Liberal Arts"
+    },
+    {
+      "firstName": "Julia ",
+      "lastName": "Montgomery",
+      "gradYear": "2019",
+      "headline": "Computational Chemist",
+      "url": "https://www.linkedin.com/in/jmaemontgomery/",
+      "image": "https://media.licdn.com/dms/image/C4D03AQHkQmamsL9eAg/profile-displayphoto-shrink_400_400/0/1637255721050?e=1712793600&v=beta&t=4pNtN6cmxJSERzsk8PQV6E8hNmymVuZ7cEfnG3ckF0c",
+      "department": "Science"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Elkins",
+      "gradYear": "2025",
+      "headline": "Chemistry",
+      "url": "https://www.linkedin.com/in/emily-elkins-643718216/",
+      "image": "https://media.licdn.com/dms/image/C4D03AQGht9wAyHo4Sg/profile-displayphoto-shrink_400_400/0/1632431498229?e=1712793600&v=beta&t=-Vre7qxYEMFPvvQu-19tQsoiqgI9zkK1r1jevn66M44",
+      "department": "Science"
+    },
+    {
+      "firstName": "Stedanie",
+      "lastName": "Locklear",
+      "gradYear": "2012",
+      "headline": "Staff - Interior Design",
+      "url": "https://www.linkedin.com/in/stefanie-locklear-9ab49b2a/",
+      "image": "https://media.licdn.com/dms/image/D5603AQFcEEm58jKn9w/profile-displayphoto-shrink_400_400/0/1701202359180?e=1712793600&v=beta&t=fNSUrSWUyl1FuZAAJdN9h36XkLUehfczkeARDeXW70w",
+      "department": "Other"
+    },
+    {
+      "firstName": "Minna",
+      "lastName": "Hamid",
+      "gradYear": "2027",
+      "headline": "Undecided",
+      "url": "https://www.linkedin.com/in/minna-hamid-1a42932b1/",
+      "image": "https://media.licdn.com/dms/image/D5603AQG7HIeqVmSF9A/profile-displayphoto-shrink_400_400/0/1706585794394?e=1712793600&v=beta&t=ypF1tdp0lVI4AJzr-DQXmtezbG1OZ9jT9g_MHuhyJPw",
+      "department": "Other"
+    },
+    {
+      "firstName": "Lisa",
+      "lastName": "Small",
+      "gradYear": "2024",
+      "headline": "Biological Systems Engineering",
+      "url": "https://www.linkedin.com/in/lisa-small-3a12a31bb/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQGtyno2NCjdvg/profile-displayphoto-shrink_400_400/0/1605024326746?e=1712793600&v=beta&t=F2YrMCcEfTZsJUdRBN3gGKuFVmFg0sG8LUSIFlA11p0",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Grashi",
+      "lastName": "Patel",
+      "gradYear": "2024",
+      "headline": "BIT Cyber Security Management",
+      "url": "https://www.linkedin.com/in/grashi-patel-b25384230/",
+      "image": "https://media.licdn.com/dms/image/D4D35AQFONdCxhGbFtw/profile-framedphoto-shrink_400_400/0/1693936244956?e=1707620400&v=beta&t=5H7viF_xUBzyMtr6dBM_AXRj0nW1sbnzdPNhWqGyljA",
+      "department": "Business"
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Freeman",
+      "gradYear": "2005",
+      "headline": "Statistics",
+      "url": "https://www.linkedin.com/in/laura-freeman-5a478ab/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQH3J9zsN4lMaw/profile-displayphoto-shrink_800_800/0/1560257750778?e=1712793600&v=beta&t=cgS5twD6QkvDsH6vE3FGRquJaDBeVedVLfNlAuVqJKs",
+      "department": "Other"
+    },
+    {
+      "firstName": "Emma",
+      "lastName": "Whitney",
+      "gradYear": "2025",
+      "headline": "Aerospace Engineering",
+      "url": "https://www.linkedin.com/in/emma-whitney-065091220/",
+      "image": "https://media.licdn.com/dms/image/D5603AQEsGKRRMsMnvg/profile-displayphoto-shrink_400_400/0/1691167746779?e=1712793600&v=beta&t=O6xJzz9NC6-ed5EIHG5Pscw0MAMaBvgQmW_D-mtInBE",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Priya",
+      "lastName": "Bhat",
+      "gradYear": "2025",
+      "headline": "Electrical & Computer Engineering",
+      "url": "https://www.linkedin.com/in/priya-bhat-2910a018a/",
+      "image": "https://media.licdn.com/dms/image/D4E03AQEc-qaoBlfUuQ/profile-displayphoto-shrink_400_400/0/1678679417580?e=1712793600&v=beta&t=anc4wACNycu0B3pTRn4hEirNSBMRmstb9g3UDjr3UTI",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Wnjing",
+      "lastName": "Lou",
+      "gradYear": "2003",
+      "headline": "Computer Science",
+      "url": "https://www.linkedin.com/in/wenjing-lou-a605237/",
+      "image": "https://media.licdn.com/dms/image/C5603AQEzJ0aYDiFa9Q/profile-displayphoto-shrink_400_400/0/1516321228162?e=1712793600&v=beta&t=b4e-lpKOYmdKIxk-K8cMv0YJeRv2wGlCAgA12yDk7ls",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Kimberly",
+      "lastName": "Ellis",
+      "gradYear": "Not Found",
+      "headline": "Industrial  & Systems Engineering",
+      "url": "https://www.linkedin.com/in/kimberly-ellis-90158512/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQFJoqLDoQMMGw/profile-displayphoto-shrink_400_400/0/1590804677731?e=1712793600&v=beta&t=PdSrBkuCVhzSkwfobM6yUiVcUwIHpTzzA_JKz8opDTI",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Prajakta",
+      "lastName": "Wale",
+      "gradYear": "2022",
+      "headline": "Mechanical Engineering",
+      "url": "https://www.linkedin.com/in/prajakta-wale/",
+      "image": "https://media.licdn.com/dms/image/D4E35AQEum9ohUeGA4g/profile-framedphoto-shrink_400_400/0/1698622680831?e=1707620400&v=beta&t=IWY94KPbIYR-rZYwBPhQuzyDb_TSghnKzv3esVl8NO4",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Kristina",
+      "lastName": "Cook",
+      "gradYear": "1999",
+      "headline": "Education & Teaching",
+      "url": "https://www.linkedin.com/in/kristina-cook-36014340/",
+      "image": "https://media.licdn.com/dms/image/C5603AQHR210AQ8CUHQ/profile-displayphoto-shrink_800_800/0/1516893208095?e=1712793600&v=beta&t=su3aqgTZBfG3t0cryP8ynK46K_3rLKF3RfyraRWi9GY",
+      "department": "Other"
+    },
+    {
+      "firstName": "Kate",
+      "lastName": "Renz",
+      "gradYear": "2022",
+      "headline": "Public Relations & Reputation Management",
+      "url": "https://www.linkedin.com/in/kate-renz-5b55b71b9/",
+      "image": "https://media.licdn.com/dms/image/D4E03AQFQBhitSCX0IA/profile-displayphoto-shrink_400_400/0/1685640844349?e=1712793600&v=beta&t=3GBcfbv_4h2gbgQXqOIVkKouuVhZ_pED6csG7Ys8ZRo",
+      "department": "Liberal Arts"
+    },
+    {
+      "firstName": "Megan",
+      "lastName": "P.",
+      "gradYear": "2025",
+      "headline": "Materials Engineering",
+      "url": "https://www.linkedin.com/in/meganhnp/",
+      "image": "https://media.licdn.com/dms/image/D4E03AQF4b4UI4AW66Q/profile-displayphoto-shrink_400_400/0/1669995651069?e=1712793600&v=beta&t=1n-pt4cqNa5spJcrlgx_U8oBxcBIesgK3t720OO_8bo",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Alena",
+      "lastName": "Anderson",
+      "gradYear": "2025",
+      "headline": "Electrical & Electronics Engineering",
+      "url": "https://www.linkedin.com/in/alena-anderson-354368225/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQEqUaN13o_cXw/profile-displayphoto-shrink_400_400/0/1663084247983?e=1712793600&v=beta&t=XhU2FvZAVaTlCkIMQ7tCX0JNcGxH-bUFiNLK9rSaEPw",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Over",
+      "gradYear": "2012",
+      "headline": "Aerospace Engineering",
+      "url": "https://www.linkedin.com/in/sarah-over-58198145/",
+      "image": "https://media.licdn.com/dms/image/D4E03AQG2qa6BwBCiNA/profile-displayphoto-shrink_400_400/0/1699030898323?e=1712793600&v=beta&t=xmoxQYsXZs5pGZcVHMd1Pf_qxtqLMqrjlsAzRnxWyk0",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Patricia",
+      "lastName": "Wooten",
+      "gradYear": "2006",
+      "headline": "Business Management",
+      "url": "https://www.linkedin.com/in/patricia-wooten-phr-shrm-cp-a58b5b8/",
+      "image": "https://media.licdn.com/dms/image/C4D03AQELZcnskGC6-w/profile-displayphoto-shrink_400_400/0/1643160035150?e=1712793600&v=beta&t=QUURaMxFvvHkwv6BUNcgqbJrwihq1-IX3a4RFSFQtB4",
+      "department": "Business"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Hutchins",
+      "gradYear": "2005",
+      "headline": "Psychology",
+      "url": "https://www.linkedin.com/in/emilywhutchins/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQGlCWOe3SkNVQ/profile-displayphoto-shrink_400_400/0/1650034033173?e=1712793600&v=beta&t=sSfdeQUiZdkca29yghwVto4XeCSr3E-AEOWr84xU3dE",
+      "department": "Other"
+    },
+    {
+      "firstName": "Marla",
+      "lastName": "White",
+      "gradYear": "Not Found",
+      "headline": "Electrical Engineering & Management",
+      "url": "https://www.linkedin.com/in/marlalwhite/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQHsTdSRi6gUhA/profile-displayphoto-shrink_400_400/0/1603069463179?e=1712793600&v=beta&t=KVnC7R50nhWDrEvB8WqPhPjTEtPG-Ib7DX5a3pnC8Vk",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Ali",
+      "lastName": "Toloczko",
+      "gradYear": "2019",
+      "headline": "Chemical & Biomedical Engineering",
+      "url": "https://www.linkedin.com/in/alitoloczko/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQEiOZ8Bj2HTig/profile-displayphoto-shrink_400_400/0/1629925638387?e=1712793600&v=beta&t=HZDLJrzkJB-tFt9mIuMtBc5u12HxzppPM8OyPIQfn3I",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Abby",
+      "lastName": "Cameron",
+      "gradYear": "2026",
+      "headline": "Biomedical Engineering",
+      "url": "https://www.linkedin.com/in/abby-m-cameron/",
+      "image": "https://media.licdn.com/dms/image/C5603AQGos55RNdBlFg/profile-displayphoto-shrink_400_400/0/1635960567382?e=1712793600&v=beta&t=jD2rJR5mALtAEDhzFqyQAglr6tzEEHwxTEReT-ezofw",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Rachel",
+      "lastName": "Grahe",
+      "gradYear": "2005",
+      "headline": "Advertising & Public Relations",
+      "url": "https://www.linkedin.com/in/rachelgrahe/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQHaBpm-9oYu2A/profile-displayphoto-shrink_400_400/0/1662601073409?e=1712793600&v=beta&t=1_bmXxUSzdVL9pQT2Lwx2bgluHcSHRVD30CIB0DsiEo",
+      "department": "Business"
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Hahn",
+      "gradYear": "2024",
+      "headline": "Mechanical Engineering",
+      "url": "https://www.linkedin.com/in/anna-hahn-5a01a31bb/",
+      "image": "https://media.licdn.com/dms/image/C5603AQF42PLwZpL6bw/profile-displayphoto-shrink_800_800/0/1604496803636?e=1712793600&v=beta&t=Q9ZiLfJmVtpvb9rbybRjNOInh8a8RZ8Us6FuGdklYt0",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Brianna",
+      "lastName": "Taylor",
+      "gradYear": "2026",
+      "headline": "Biomedical Engineering",
+      "url": "https://www.linkedin.com/in/brianna-tabor-11410b250/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQEbjutYEUdBug/profile-displayphoto-shrink_400_400/0/1663865242740?e=1712793600&v=beta&t=g9-PgLVsLlSXuAh4OUQ5048vTQ_iDSwYUWKO9tXZZJk",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Jessica",
+      "lastName": "Davis",
+      "gradYear": "2017",
+      "headline": "Public Administration & Analysis",
+      "url": "https://www.linkedin.com/in/jesdavishighereducation/",
+      "image": "https://media.licdn.com/dms/image/C4E03AQFG0ZxuCQiS5A/profile-displayphoto-shrink_400_400/0/1596026573720?e=1712793600&v=beta&t=5Wy_29lLvov0nD0_y2NiIFEygv71SlJe4v4AZT19Pac",
+      "department": "Business"
+    },
+    {
+      "firstName": "Christine",
+      "lastName": "Gilbert",
+      "gradYear": "2006",
+      "headline": "Mechanical Engineering",
+      "url": "https://www.linkedin.com/in/christine-gilbert-99793b14/details/education/",
+      "image": "https://media.licdn.com/dms/image/C4D03AQHpju2lVH-LSA/profile-displayphoto-shrink_400_400/0/1516544141603?e=1712793600&v=beta&t=Rp2JriJIiCR9nchO2zqa0p2dNe8HMGL51uOqpxpB-gM",
+      "department": "Engineering"
+    },
+    {
+      "firstName": "Kaylee",
+      "lastName": "Keegan",
+      "gradYear": "2024",
+      "headline": "Industrial & Systems Engineering",
+      "url": "https://www.linkedin.com/in/kaylee-keegan/",
+      "image": "https://media.licdn.com/dms/image/D4E35AQHgsL8lmRu-Sw/profile-framedphoto-shrink_400_400/0/1703727342714?e=1707620400&v=beta&t=8qxRjmzX5o7_eAGffiCvhBHUCJtaBoOtAveDF9Rc290",
+      "department": "Engineering"
+    }
+  ]

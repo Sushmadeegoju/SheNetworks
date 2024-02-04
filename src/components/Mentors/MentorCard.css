@@ -1,0 +1,12 @@
+.card {
+    transition: all 0.3s;
+    border-width: 0;
+}
+
+.card:hover {
+    transform: scale(1.10);
+}
+
+a {
+    color: black;
+}
