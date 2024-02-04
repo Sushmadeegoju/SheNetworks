@@ -7,12 +7,6 @@ PropTypes.checkPropTypes = () => {};
 function Login({ onLogin }) {
     const navigate = useNavigate(); // Get the history object from React Router
 
-    const handleSuccessfulLogin = (user) => {
-        console.log(`Hello ${user.firstName}! You are successfully logged in!`);
-        onLogin(true);
-        navigate('/events');
-    };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
     const loginEmail = document.getElementById("email-txt").value;
@@ -32,9 +26,9 @@ function Login({ onLogin }) {
       });
 
       if (response.ok) {
-        const userData = await response.json();
-        console.log(userData);
-        handleSuccessfulLogin(userData);
+        console.log("successfully logged in!");
+        onLogin(true);
+        navigate('/events');
       } else {
         const errorMessage = await response.json();
         alert(`Error: ${errorMessage["error"]}`);
