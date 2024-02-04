@@ -1,15 +1,16 @@
 import '../css/App.css'
 import { useState, useEffect } from "react";
-import { Routes, Link, Route } from "react-router-dom";
+import { Routes, Link, Route, useNavigate } from "react-router-dom";
 import Home from './HomePage'
 import Login from './Login'
 import Event from './Events'
 import Register from './Register';
-import Mentors from './Mentors'
+import Mentors from './Mentors';
+import Discussion from './DiscussionPage';
 
 function App() {
 
-  
+  const navigate = useNavigate();
 
   const storedLoggedInState = localStorage.getItem('isLoggedIn');
   const [isLoggedIn, setIsLoggedIn] = useState(storedLoggedInState === 'true');
@@ -33,6 +34,7 @@ function App() {
   const handleLogout = () => {
     setIsLoggedIn(false);
     localStorage.setItem('isLoggedIn', 'false');
+    navigate('/home');
   };
 
   return (
@@ -43,10 +45,11 @@ function App() {
           <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/events">Events</Link></li>
-              <li style={{ marginRight: "50px" }}><Link to="/mentors">Mentors</Link></li>
+              <li><Link to="/mentors">Mentors</Link></li>
+              <li style={{ marginRight: "30px" }}><Link to="/discussions">Discussion</Link></li>
             </ul>
           {isLoggedIn? (
-            <div onClick={handleLogout} style={{ display: "flex", justifyContent:"center", marginTop: "15px", marginRight: "15px", color: "white", fontWeight: "bold", cursor: "pointer" }}>
+            <div onClick={handleLogout} style={{ display: "flex", justifyContent:"center", marginTop: "15px", marginRight: "5px", color: "white", fontWeight: "bold", cursor: "pointer" }}>
               Logout
             </div>
 
@@ -71,6 +74,7 @@ function App() {
               <Route path="/register" element={<Register />} /> 
               <Route path="/events" element={<Event />} /> 
               <Route path="/mentors" element={<Mentors />} /> 
+              <Route path='/discussions' element={<Discussion/>} />
           </Routes> 
         <footer>
           <section>

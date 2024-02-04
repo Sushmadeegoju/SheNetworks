@@ -1,11 +1,14 @@
-import React from 'react';
-import { Parallax } from 'react-parallax';
-import bg from '../assets/HomePage_Landing.jpg';
 
-const ImageOne = () => (
+import { Parallax } from 'react-parallax';
+import bg from '../assets/HomePage_Landing.jpeg';
+
+
+const ImageOne = ({text}) => (
   <Parallax className='image' bgImage={bg} strength={800}>
     <div className='content'>
-      <span className='imageText'> Some Text Here </span>
+      <div style={{backgroundColor: "whitesmoke", marginLeft: "500px", marginTop: "40vh", fontWeight: "800", fontFamily: "sans-serif", textAlign:"center", fontSize: "28px"}}> 
+          {text}
+      </div>
     </div>
   </Parallax>
 );

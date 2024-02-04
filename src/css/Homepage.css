@@ -1,0 +1,12 @@
+.cards-container {
+    display: flex;
+    flex-direction: row; /* Display cards side by side */
+    justify-content: space-around; /* Adjust spacing between cards */
+    align-items: center;
+  }
+  
+  .card {
+    width: 300px; /* Adjust card width as needed */
+    margin: 10px; /* Adjust margin between cards */
+  }
+  

@@ -12,7 +12,7 @@
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: solid 2px #016b63;
+    border: solid 2px #702963;
 }
 .login-header {
     display: flex;
@@ -31,14 +31,14 @@
     padding: 2px;
     height: 35px;
     margin-bottom: 10px;
-    border: solid 2px #016b63;
+    border: solid 2px #702963;
     border-radius: 5px;
 }
 
 .login-form button {
     width: 100%;
     padding: 10px;
-    background-color: #016b63;
+    background-color: #702963;
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -50,6 +50,6 @@
     display: block;
     text-align: center;
     margin-top: 10px;
-    color: #016b63;
+    color: #702963;
     text-decoration: none;
 }

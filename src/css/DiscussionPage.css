@@ -1,0 +1,41 @@
+/* DiscussionPage.css */
+.discussion-page-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .new-discussion-form,
+  .comment-form {
+    width: 30%;
+  }
+  
+  .form-section {
+    margin-bottom: 10px;
+  }
+  
+  .discussion-cards {
+    width: 40%;
+  }
+  
+  .discussion-card,
+  .comment {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #702963;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  

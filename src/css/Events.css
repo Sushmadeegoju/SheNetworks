@@ -6,7 +6,9 @@
     padding: 20px;
   }
   
-  .filters-container,
+  .filters-container {
+    width: 20%;
+  }
   .events-container {
     width: 45%;
   }

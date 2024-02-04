@@ -7,7 +7,7 @@ function Home() {
   
   return (
     <div>
-    <ImageOne />
+    <ImageOne text="She Networks empowers women in tech by fostering a supportive ecosystem of connections, opportunities, and mentorship, championing diversity and inclusivity for a thriving future in the industry." />
     <ImageTwo />
     <ImageThree />
     </div>

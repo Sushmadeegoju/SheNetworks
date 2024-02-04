@@ -1,5 +1,4 @@
 // EventPage.jsx
-
 import { useState } from 'react';
 import '../css/Events.css';
 
@@ -12,14 +11,37 @@ const sampleEvents = [
   {
     title: 'Tech Talk: React Fundamentals',
     host: 'Tech Society',
+    department: 'Computer Science',
     location: 'Virtual Event',
     dateTime: '2024-02-15T14:30:00',
   },
   {
     title: 'Networking Mixer: Women in Tech',
     host: 'Diversity Network',
+    department: 'Electrical Engineering',
     location: 'City Hall Auditorium',
     dateTime: '2024-02-20T18:00:00',
+  },
+  {
+    title: 'Machine Learning Workshop',
+    host: 'AI Enthusiasts Club',
+    department: 'Mechanical Engineering',
+    location: 'Room 102, Engineering Building',
+    dateTime: '2024-03-10T15:45:00',
+  },
+  {
+    title: 'UX Design Conference',
+    host: 'Design Innovators',
+    department: 'Computer Science',
+    location: 'Convention Center',
+    dateTime: '2024-03-22T09:30:00',
+  },
+  {
+    title: 'Startup Pitch Competition',
+    host: 'Entrepreneurship Hub',
+    department: 'Electrical Engineering',
+    location: 'Innovation Hub, Floor 5',
+    dateTime: '2024-04-05T14:00:00',
   },
   // Add more sample events as needed
 ];
@@ -39,7 +61,7 @@ const EventPage = () => {
 
   const filteredEvents = sampleEvents.filter((event) => {
     const isDepartmentMatch =
-      !selectedFilters.department || selectedFilters.department === event.host;
+      !selectedFilters.department || selectedFilters.department === event.department;
     const isDateMatch = !selectedFilters.date || selectedFilters.date === event.date;
     return isDepartmentMatch && isDateMatch;
   });
@@ -47,7 +69,6 @@ const EventPage = () => {
   return (
     <div className="event-page-container">
       <div className="filters-container">
-        <h2>Filters</h2>
         <div className="filter-section">
           <label>Department:</label>
           <select
@@ -78,16 +99,19 @@ const EventPage = () => {
         </div>
       </div>
       <div className="events-container">
-        <h2>Events</h2>
-        {filteredEvents.map((event) => (
-          <div key={event.title} className="event-card">
-            <h3>{event.title}</h3>
-            <p>
-              Hosted by {event.host} | Location: {event.location} | Date & Time:{' '}
-              {new Date(event.dateTime).toLocaleString()}
-            </p>
-          </div>
-        ))}
+        {filteredEvents.length > 0 ? (
+          filteredEvents.map((event) => (
+            <div key={event.title} className="event-card">
+              <h3>{event.title}</h3>
+              <p>
+                Hosted by {event.host} | Department: {event.department} | Location: {event.location} | Date & Time:{' '}
+                {new Date(event.dateTime).toLocaleString()}
+              </p>
+            </div>
+          ))
+        ) : (
+          <p>No events match the selected filters.</p>
+        )}
       </div>
     </div>
   );
