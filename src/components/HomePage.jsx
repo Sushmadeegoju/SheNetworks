@@ -1,3 +1,5 @@
+// imported the images
+
 import ImageOne from './ImageOne'
 import ImageTwo from './ImageTwo'
 import ImageThree from './ImageThree'
